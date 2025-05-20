@@ -27,7 +27,7 @@ main {
 }
 button{
   background-color: black;
-  border: none;
+  border: dotted;
   color: lightgray;
   padding: 10px 15px;
   text-align: center;
