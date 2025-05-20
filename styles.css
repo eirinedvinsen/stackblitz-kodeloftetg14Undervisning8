@@ -25,6 +25,15 @@ header {
 main {
   padding: 60px;
 }
+button{
+  background-color: black;
+  border: none;
+  color: lightgray;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
 
 .hero {
 }
@@ -39,5 +48,7 @@ main {
 }
 
 .footer {
-  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

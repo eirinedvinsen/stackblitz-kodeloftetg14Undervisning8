@@ -5,23 +5,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
   </head>
 
   <body>
     <header>
-      <div class="headerLogo">EE</div>
+      <button id="logo"><div class="headerLogo">EE</div></button>
       <nav>
         <ul class="navigationList">
-          <li>Lorem.</li>
-          <li>Lorem.</li>
-          <li>Lorem.</li>
+          <button id="knappEn"><li id="LoremEn">Lorem.</li></button>
+          <button id="knappTo"><li id="LoremTo">Lorem.</li></button>
+          <button id="knappTre"><li id="LoremTre">Lorem.</li></button>
         </ul>
       </nav>
     </header>
 
     <main>
       <section class="hero">
-        <h1>Lorem.</h1>
+        <h1 id="changeText">Lorem.</h1>
+        <button id="button">Klikk meg!</button>
+        
+        <button id="addText">Trykk på meg</button>
+        <p id="recieveText"></p>
+        
         <div class="heroIntro">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
@@ -31,29 +37,33 @@
       </section>
 
       <section class="aboutMe">
-        <h2>Lorem.</h2>
+        <button id="headLineButton"><h2 id="headLine">Lorem.</h2></button>
+        
         <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et,
-          exercitationem?
+          <button id="changeTxt">Endre tekst?</button>
+          <p id="newText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et,
+          exercitationem?</p>
         </div>
       </section>
 
       <section class="projects">
-        <h2>Lorem.</h2>
+        <button id="knapp"><h2 id="overskrift">Lorem.</h2></button>
         <div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, et.
+          <button id="changes">Press for changes</button>
+          <p id="chchanges">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, et.
           </p>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <h3>Lorem.</h3>
+      <h3 id="h3">Lorem.</h3>
+      <button id="backToBlack">H3</button>
       <nav>
-        <ul>
-          <li>Lorem.</li>
-          <li>Lorem.</li>
-          <li>Lorem.</li>
+        <ul class="navigationList">
+          <button id="botanIchi"><li>Lorem.</li></button>
+          <button id="botanNi"><li>Lorem.</li></button>
+          <button id="botanSan"><li>Lorem.</li></button>
         </ul>
       </nav>
     </footer>
