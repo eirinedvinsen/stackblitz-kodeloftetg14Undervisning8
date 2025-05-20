@@ -1,0 +1,43 @@
+/* CSS Selector */
+body {
+  background-color: black;
+  color: antiquewhite;
+  margin: 8px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  border: 8px black solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.navigationList {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+main {
+  padding: 60px;
+}
+
+.hero {
+}
+
+.heroIntro {
+}
+
+.aboutMe {
+}
+
+.projects {
+}
+
+.footer {
+  padding: 60px;
+}
